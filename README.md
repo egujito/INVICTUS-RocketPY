@@ -88,12 +88,14 @@ Flight simulation is critical to guarantee the **safety**, **performance**, and 
 | Center of Mass    | 2.09 m                         |
 | Inertia           | (31.99; 31.99; 0.2049)         |
 
-### Components
+### Nose Cone
 
 | **Nose Cone**     | **Value**     |
 |-------------------|---------------|
 | Length            | 0.385 m       |
 | Type              | Von Karman    |
+
+### Fins
 
 | **Fins**          | **Value**     |
 |-------------------|---------------|
@@ -102,6 +104,8 @@ Flight simulation is critical to guarantee the **safety**, **performance**, and 
 | Tip Chord         | 0.14 m        |
 | Span              | 0.160 m       |
 | Position          | 3.45 m        |
+
+### Tail
 
 | **Tail**          | **Value**     |
 |-------------------|---------------|
