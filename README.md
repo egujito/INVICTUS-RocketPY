@@ -57,8 +57,8 @@ Flight simulation is critical to guarantee the **safety**, **performance**, and 
 
 | **Hybrid Motor**             | **Value**                              |
 |-----------------------------|----------------------------------------|
-| Dry Mass                    | 21.5 kg                                |
-| Inertia (xx, yy, zz)        | (6.635, 6.635, 0.06135) kg·m²          |
+| Dry Mass                    | 23.8 kg                                |
+| Inertia (xx, yy, zz)        | (9.845, 9.845, 0.06798) kg·m²          |
 | Nozzle Throat Radius        | 0.030 m                                |
 | Tank Position               | 1.345 m                                |
 
@@ -84,9 +84,9 @@ Flight simulation is critical to guarantee the **safety**, **performance**, and 
 | **Structure**     | **Value**                      |
 |-------------------|--------------------------------|
 | Radius            | 0.0815 m                       |
-| Mass              | 20.0 kg                        |
-| Center of Mass    | 2.09 m                         |
-| Inertia           | (31.99; 31.99; 0.2049)         |
+| Mass              | 17.8 kg                        |
+| Center of Mass    | 2.02 m                         |
+| Inertia           | (26.5, 26.5, 0.1647)         |
 
 ### Nose Cone
 
@@ -100,9 +100,9 @@ Flight simulation is critical to guarantee the **safety**, **performance**, and 
 | **Fins**          | **Value**     |
 |-------------------|---------------|
 | Quantity          | 4             |
-| Root Chord        | 0.28 m        |
-| Tip Chord         | 0.14 m        |
-| Span              | 0.160 m       |
+| Root Chord        | 0.24 m        |
+| Tip Chord         | 0.12 m        |
+| Span              | 0.200 m       |
 | Position          | 3.45 m        |
 
 ### Tail
@@ -143,19 +143,17 @@ Flight simulation is critical to guarantee the **safety**, **performance**, and 
 
 ## 📊 Results (Preliminary)
 
-> Note: This simulation does not yet reflect the dual-tank system of INVICTUS II. Final CAD and physical data are under development.
 
 | **Parameter**             | **Value**     |
 |---------------------------|---------------|
-| Apogee                    | 2996.41 m     |
-| Min. Stability Margin     | 2.108 c       |
-| Max. Stability Margin     | 2.816 c       |
-| Vertical Impact Velocity  | –7.22 m/s     |
+| Apogee                    | 3767.4 m (AGL)     |
+| Min. Stability Margin     | 3.390 c       |
+| Max. Stability Margin     | 4.081 c       |
+| Vertical Impact Velocity  | -7.06 m/s     |
 | Rail Exit Velocity        | 33.2 m/s ✅    |
 
 ---
 
 ## 🔮 TODO
 
-- Implement two-tank hybrid simulation
 - Conduct Monte Carlo dispersion analysis for risk assessment
